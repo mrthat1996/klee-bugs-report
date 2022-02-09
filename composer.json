@@ -17,7 +17,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Mrthat1996\\KleeBugsReport\\Provider\\ServiceProvider"
+        "Mrthat1996\\KleeBugsReport\\Providers\\ServiceProvider"
       ]
     }
   },
