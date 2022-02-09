@@ -14,7 +14,7 @@ class ServiceProvider extends BaseServiceProvider
     private function setUpConfig()
     {
         $this->publishes([
-            __DIR__ . '/config/klee_bugs_report.php' => config_path('klee_bugs_report.php')
+            __DIR__ . '/../../config/klee_bugs_report.php' => config_path('klee_bugs_report.php')
         ]);
     }
 }
