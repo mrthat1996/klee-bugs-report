@@ -1,0 +1,23 @@
+{
+  "name": "mrthat1996/klee-bugs-report",
+  "description": "Log bugs using Klee",
+  "type": "project",
+  "require": {
+    "guzzlehttp/guzzle": "^7",
+    "php": "^7.4.0",
+    "illuminate/support": "~5.0|~6.0|~7.0|^8.0",
+    "ext-json": "*",
+    "laravel/framework": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mrthat1996\\KleeBugsReport\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alice Schuburg",
+      "email": "heartnet1010@gmail.com"
+    }
+  ]
+}
