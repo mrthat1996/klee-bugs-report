@@ -8,13 +8,13 @@
 composer require mrthat1996/klee-bugs-report
 ```
 
-2. Add ServiceProvider
+2. Add ServiceProvider to `config/app.php`
 
 ```shell
 Mrthat1996\KleeBugsReport\Providers\KleeBugsReportServiceProvider::class
 ```
 
-3. Public configuration
+3. Public configuration (Optional)
 
 ```shell
 php artisan vendor:publish --provider="Mrthat1996\KleeBugsReport\Providers\ServiceProvider"
