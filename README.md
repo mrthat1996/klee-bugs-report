@@ -39,3 +39,14 @@ KLEE_LOG_ENV=development,staging
 ```shell
 KLEE_AUTH_TOKEN=TOKEN
 ```
+
+5. Facades
+* Add alias to `config/app.php`
+```shell
+'Klee' => Mrthat1996\KleeBugsReport\Facades\KleeFacade::class,
+```
+
+* To log a custom message
+```php
+\Klee::log(string, array);
+```
