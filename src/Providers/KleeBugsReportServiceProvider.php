@@ -22,6 +22,7 @@ class KleeBugsReportServiceProvider extends ServiceProvider
 
     public function register()
     {
+        parent::register();
         $this->app->bind('Klee', function () {
             return new KleeHelper();
         });

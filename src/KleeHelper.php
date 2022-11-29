@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Http;
 
 class KleeHelper
 {
-    public function log($message, array $data)
+    public function log($message, array $data = [])
     {
         try {
             Http::withHeaders([
